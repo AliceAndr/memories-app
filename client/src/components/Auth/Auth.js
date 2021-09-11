@@ -32,7 +32,7 @@ const Auth = () => {
     }
   };
 
-  const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+  const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const googleSuccess = async (res) => {
     const result = res?.profileObj;
@@ -51,7 +51,7 @@ const Auth = () => {
 
   const switchMode = () => {
     setIsSignup((prev) => !prev);
-    handleShowPassword(false);
+    setShowPassword(false);
   }
 
   return (
