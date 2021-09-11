@@ -1,10 +1,43 @@
 import React from "react";
+import { Avatar, Paper, Grid, Typography, Button, Container, TextField } from '@material-ui/core';
+import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import Input from "./Input";
+import useStyles from './styles';
 
 const Auth = () => {
+  const classes = useStyles();
+
+  const isSignup = false;
+
+  const handleSubmit = () => {
+
+  }
+
+  const handleChange = () => {
+
+  }
+
   return (
-    <div>
-      Auth
-    </div>
+    <Container component="main" maxWidth="xs">
+      <Paper className={classes.paper} elevation={3}>
+        <Avatar className={classes.avatar}>
+          <LockOutlinedIcon />
+        </Avatar>
+        <Typography variant="h5">{isSignup ? 'Sign Up' : 'Sign In'}</Typography>
+        <form className={classes.form} onSubmit={handleSubmit}>
+          <Grid container spacing={2}>
+            {
+              isSignup && (
+                <>
+                 <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half />
+                 <Input name="lastName" label="Last Name" handleChange={handleChange} half />
+                </>
+              )
+            }
+          </Grid>
+        </form>
+      </Paper>
+    </Container>
   )
 }
 
