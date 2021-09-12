@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { commentPost } from '../../actions/posts';
 import useStyles from './styles';
 
-const CommentSection = () => {
+const CommentSection = ({ post }) => {
   return (
     <div>
       comment section
