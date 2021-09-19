@@ -1,1 +1,1 @@
-<h1 align="center">Project title</h1>
+<h1 align="center">Places-And-Memories App</h1>
