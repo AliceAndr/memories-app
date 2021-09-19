@@ -23,3 +23,5 @@ Places-And-Memories - это социальная сеть для путешес
 - Express
 - MongoDB
 - Bcrypt
+
+![alt text](https://github.com/AliceAndr/memories-app/blob/main/client/src/images/mem.png?raw=true)
