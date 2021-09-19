@@ -25,3 +25,5 @@ Places-And-Memories - это социальная сеть для путешес
 - Bcrypt
 
 ![alt text](https://github.com/AliceAndr/memories-app/blob/main/client/src/images/mem.png?raw=true)
+![alt text](https://github.com/AliceAndr/memories-app/blob/main/client/src/images/mem1.png?raw=true)
+![alt text](https://github.com/AliceAndr/memories-app/blob/main/client/src/images/mem2.png?raw=true)
